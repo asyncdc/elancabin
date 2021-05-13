@@ -19,7 +19,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         $data['success'] = false;
         $data['errors']  = $errors;
     } else {
-        $subject = "Newsletter Registration èlan cabin - $subjectPrefix";
+        $subject = "Newsletter Registration élan cabin - $subjectPrefix";
         $body    = '
             <strong>Email: </strong>'.$email.'<br />
         ';
